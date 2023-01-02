@@ -1,0 +1,43 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "sass": "^1.57.1",
+    "vite": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ],
+    "plugins":[
+    [
+    "@babel/plugin-proposal-class-properties",
+    {
+    "loose":true
+    },
+    "yt1"
+    ],
+    [
+    "@babel/plugin-proposal-private-methods",
+    {
+    "loose":true
+    },
+    "yt2"
+    ]
+    ]
+  }
+}
