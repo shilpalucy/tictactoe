@@ -7,7 +7,7 @@ const Square = ({ value, onClick, isWinningSquare }) => {
       className="square"
       onClick={onClick}
       style={{ fontWeight: isWinningSquare ? 'bold' : 'normal' }}
-    >
+      >
       {value}
     </button>
   );
